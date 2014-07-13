@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "HSCityFacts"
   s.version      = "0.0.1"
-  s.summary      = "HubSpot Sources App"
+  s.summary      = "City Facts"
   s.homepage     = "https://github.com/aroldan/HSCityFacts"
   s.license      = "MIT"
   s.author       = { "Anthony Roldan" => "aroldan@hubspot.com" }
