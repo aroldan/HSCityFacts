@@ -1,0 +1,17 @@
+PODS:
+  - HSCore (0.0.1):
+    - JLRoutes (~> 1.5)
+  - JLRoutes (1.5.1)
+
+DEPENDENCIES:
+  - HSCore (from `~/dev/src/talk/HSCore`)
+
+EXTERNAL SOURCES:
+  HSCore:
+    :path: ~/dev/src/talk/HSCore
+
+SPEC CHECKSUMS:
+  HSCore: 562a50eea482094e98cf435dd45505c093fe6b70
+  JLRoutes: 3400fe314fc01c861a14ff7e183d209b0cd302ae
+
+COCOAPODS: 0.33.1
