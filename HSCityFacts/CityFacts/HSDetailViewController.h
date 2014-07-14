@@ -14,5 +14,6 @@
 @property (strong, nonatomic) HSCity *detailItem;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+- (IBAction)findWeather:(id)sender;
 
 @end

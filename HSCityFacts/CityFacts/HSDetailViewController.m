@@ -7,6 +7,8 @@
 //
 
 #import "HSDetailViewController.h"
+#import <JLRoutes.h>
+#import <NSString+UrlEncode.h>
 
 @implementation HSDetailViewController
 
@@ -42,6 +44,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)findWeather:(id)sender {
+    [JLRoutes routeURL:[NSURL URLWithString:[NSString stringWithFormat:@"/weather/%@", [self.detailItem.name urlEncode]]]];
 }
 
 @end
